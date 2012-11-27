@@ -23,6 +23,15 @@ public class Board extends JPanel implements Runnable {
         setBackground(Color.BLACK);
         setDoubleBuffered(true);
 
+//        while(true)
+//        {
+//         GetUserInput();
+//         ApplyGameLogic();
+//         Update();
+//         Render();
+//        }
+        
+        
         ImageIcon ii = new ImageIcon(this.getClass().getResource("star.png"));
         star = ii.getImage();
 

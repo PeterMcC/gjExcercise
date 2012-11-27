@@ -12,9 +12,11 @@ public class Main extends JFrame {
 
 	private Main() {
 		super(); // construct a new invisible JFrame
-		/* Define the frame properties */
+		
 		add(new Board());
 		
+		
+		/* Define the frame properties */
 		this.setSize(this.WIDTH, this.HEIGHT);
 		this.setTitle(TITLE);
 		this.setResizable(false);
